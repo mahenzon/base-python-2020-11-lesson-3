@@ -130,7 +130,7 @@ def lesson2():
     print(hello_text)
     """
 
-
+    # True values
     i = 1
     i_n = -1
     b = True
@@ -138,13 +138,14 @@ def lesson2():
     t = ("spam", "eggs")
     l = ["foo"]
 
+    # False values
     n = None
     b = False
     i = 0
-    print(1 == True)
-    print(0 == False)
-    print(True + False + True)
-    print(False + False)
+    # print(1 == True)
+    # print(0 == False)
+    # print(True + False + True)
+    # print(False + False)
     s = ""
     t = ()
     l = []
