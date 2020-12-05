@@ -152,7 +152,6 @@ def lesson2():
     d = {}
     s = set()
 
-
     foobar = None
 
     # d["foo"] = "bar"
@@ -162,7 +161,6 @@ def lesson2():
     print(foobar)
     if foobar is not None:
         print("foobar:", foobar)
-
 
 
     def time_call(func):
@@ -182,7 +180,6 @@ def lesson2():
         print(id(func))
         print(id(wrapper.__wrapped__))
         return wrapper
-
 
     #
 
