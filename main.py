@@ -316,6 +316,14 @@ def true_and_false(val=True):
         yield val
         val = not val
 
+
 g = true_and_false()
 for i in range(100):
     print(next(g))
+
+
+def lesson3_generators():
+    """
+    TODO: move generators here!
+    :return:
+    """
